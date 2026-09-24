@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/f50d2ea5-33ab-42b9-941f-07eb3dfc129b" />
+</p>
 # Leon
 
 Web Exposure Scanner for Security Research
