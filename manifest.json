@@ -3,23 +3,33 @@
   "name": "Leon",
   "version": "0.1.0",
   "description": "Web exposure scanner for security research.",
+
   "browser_specific_settings": {
     "gecko": {
       "id": "leon@mamad4ever",
-      "strict_min_version": "115.0"
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
   },
+
   "action": {
     "default_title": "Leon",
     "default_popup": "popup.html"
   },
+
   "background": {
     "scripts": ["background.js"]
   },
+
   "permissions": [
     "activeTab",
     "storage"
   ],
+
   "host_permissions": [
     "<all_urls>"
   ],
